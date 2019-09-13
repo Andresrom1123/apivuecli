@@ -1,6 +1,6 @@
     <template >
     <div class="">
-        <a class="text-decoration-none" :href="'CategorieProduct/'+uuid">
+        <router-link class="text-decoration-none" :to="'CategorieProduct/'+uuid">
             <div class="position-relative  m-0">
                 <div class="position-absolute"
                     style="top: 0; bottom: 0; left: 0; right: 0; background: linear-gradient( rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3) );">
@@ -16,7 +16,7 @@
                     <h6 class="text-white">12 listings</h6>
             </div>
             </div>
-        </a>
+        </router-link>
     </div>
         
     </template>

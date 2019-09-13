@@ -7,7 +7,7 @@
                     Descubre, Aprende, Crece</h1>
             </div>
             <div class="pb-5">
-              <button type="button" class="btn btn-light"><a class="text-muted text-decoration-none" href="/Categorie">Browse</a></button>
+              <button type="button" class="btn btn-light"><router-link class="text-muted text-decoration-none" to="/Categorie">Browse</router-link></button>
             </div>
         </div>
     </div>

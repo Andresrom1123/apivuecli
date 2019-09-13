@@ -2,11 +2,11 @@
     <div>
        <div class=" border-top-0 shadow">
             <div class="scroll" style="overflow: auto;  height: 200px" >
-                <a class="text-decoration-none" :href="'../Product-page/'+uuid">
+                <router-link class="text-decoration-none" :to="'../Product-page/'+uuid">
                     <img  class="" :src="image" width="100%"><img>
-                </a>    
+                </router-link>    
             </div>
-                <h5 class="pl-3 pt-2">{{ name }}</h5>
+                <h5 clrouter-linkss="pl-3 pt-2">{{ name }}</h5>
             <div class="mb-4 scroll" style="height: 160px; overflow: auto;">
                 <p class="mt-3  pl-3 pr-3">{{ description }}</p>
             </div>
