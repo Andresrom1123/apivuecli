@@ -33,8 +33,8 @@
                 </form>
             </div>
             <div class="row m-0 mt-2 mb-2" >
-              <div class="col-sm-6 col-lg-3 m-0 box-si  mb-4" v-for="category in categorie" :key="category.id">
-               <categorie :name="category.name" :uuid="category.uuid"></categorie>
+              <div class="col-sm-6 col-lg-3 m-0 box-si  mb-4" v-for="(category, index) in categorie" :key="category.id">
+               <categorie v-if="index < 8" :name="category.name" :uuid="category.uuid"></categorie>
               </div>
             </div>
         </div>
