@@ -10,7 +10,7 @@
             </form>
         </div>
         <div class="row m-0 mt-2 mb-2" >
-            <div class="col-3 m-0 box-si  mb-4" v-for="category in categorie" :key="category.id">
+            <div class="col-sm-6 col-lg-3 m-0 box-si  mb-4" v-for="category in categorie" :key="category.id">
             <categorie :name="category.name" :uuid="category.uuid"></categorie>
             </div>
         </div>
