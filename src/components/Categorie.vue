@@ -10,7 +10,7 @@
                         src="https://images.pexels.com/photos/1483907/pexels-photo-1483907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                         alt="" width="100%" height="auto">
                 </div>
-                <div class="position-absolute" style="top: 0; bottom: 0; left: 0; right: 0; margin-top: 50px;">
+                <div class="position-absolute" style="top: 0; bottom: 0; left: 0; right: 0; margin-top: 20px;">
                     <i class="ico text-white fas fa-bullhorn "></i>
                     <h2 class="text-white">{{name}}</h2>
                     <h6 class="text-white">12 listings</h6>
