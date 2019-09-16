@@ -2,7 +2,7 @@
   <div class="">
     <div class=" mb-5 bg-warning">
         <div class="p-5 ">
-            <div class="pt-5 pr-5 pl-5">
+            <div class="container pt-5 pr-5 pl-5">
                 <h1>Los mejores recursos del Marketing Digital <br>
                     Descubre, Aprende, Crece</h1>
             </div>
